@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="LeoTaxCalcultor:war">
+    <output-path>$PROJECT_DIR$/LeoTaxCalcultor/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>LeoTaxCalcultor</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="LeoTaxCalcultor-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="LeoTaxCalcultor:war exploded" />
+    </root>
+  </artifact>
+</component>
